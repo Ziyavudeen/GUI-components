@@ -1,4 +1,4 @@
-# Ex.No: 2 To develop an application that uses GUI Components with Fonts and Colors. 
+# Ex.No: 1 To develop an application that uses GUI Components with Fonts and Colors. 
 Note: Create button for colors and fonts while clicking color or font button should change 
 
 
@@ -11,29 +11,25 @@ To create an application that uses GUI Components with Fonts and Colors using An
 Latest Version Android Studio
 
 ## ALGORITHM:
-Step 1: Open Android Stdio and then click on File -> New -> New project.
-
-Step 2: Then type the Application name as GUI_Components and click Next.
-
+```
+Step 1: Open Android Studio and then click on File -> New -> New project.
+Step 2: Then type the Application name as HelloWorld and click Next.
 Step 3: Then select the Minimum SDK as shown below and click Next.
-
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
-
-Step 5: Design layout in activity_main.xml.
-
+Step 5: Design layout in activity_main.xml
 Step 6: Display message give in MainActivity file.
-
 Step 7: Save and run the application.
+```
 
 ## PROGRAM:
 ```
 /*
 Program to print the text “GUIcomponent”.
 Developed by: Ziyavudeen A
-Registeration Number : 212221040189
+Registeration Number :212221040189
 */
 ```
-## ACTIVITY_MAIN.XML:
+ACTIVITY_MAIN.XML
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -81,7 +77,8 @@ Registeration Number : 212221040189
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## MAINACTIVITY.JAVA:
+
+ACTIVITYMAIN.JAVA
 ```
 package com.example.gui_components;
 
@@ -96,7 +93,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    Float textSize,add=10.0f;
+    Float textSize,add=2.0f;
     Button colorButton;
     Button fontButton;
 
@@ -129,19 +126,23 @@ public class MainActivity extends AppCompatActivity {
                 textView.setTextSize(textSize);
             }
         });
-    }
+
+}
 }
 ```
 
 ## OUTPUT
-![Screenshot (205)](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/a59e6bea-a84f-4cbd-a4a1-bf5e74abfada)
-![Screenshot (206)](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/a361028c-5b50-4ecd-8915-d889b9d4979f)
-![Output1](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/da23fff0-41fc-4aa6-9352-42ece5a9353d)
-![Output2](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/1a57577e-8955-4bd7-8bf5-5c6e76f101bd)
-![Output3](https://github.com/DonBoscoBlaiseA/Mobile-Application-Development/assets/140850829/324e9704-ec62-48e6-aa99-bddbd6eff0df)
+![Screenshot 2024-03-10 114137](https://github.com/yuvaraj-csk/GUI-components/assets/134052574/1b7e6e98-77b8-4025-8639-e4b2419b8d97)
+![Screenshot 2024-03-10 114343](https://github.com/yuvaraj-csk/GUI-components/assets/134052574/fa2a0803-45b6-40d1-a3e6-c708369f8cb4)
+![Screenshot 2024-03-10 114426](https://github.com/yuvaraj-csk/GUI-components/assets/134052574/e05b0b97-f9af-439b-8f27-aa1645545528)
+
+
+
 
 
 
 
 ## RESULT
 Thus a Simple Android Application that uses GUI Components with Fonts and Colors using Android Studio is developed and executed successfully.
+
+
